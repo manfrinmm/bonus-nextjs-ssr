@@ -24,7 +24,7 @@ export const Content = styled.div`
 
   div {
     text-align: center;
-    max-width: 800px;
+    width: 800px;
 
     margin-left: 16px;
 
