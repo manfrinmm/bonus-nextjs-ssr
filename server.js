@@ -8,5 +8,7 @@ const app = next({ dev: process.env.NODE_ENV !== "production" });
 const handler = routes.getRequestHandler(app);
 
 app.prepare().then(() => {
-  createServer(handler).listen(3000);
+  createServer(handler).listen(3000, () => {
+    console.log("Server started on http://localhost:3000");
+  });
 });
