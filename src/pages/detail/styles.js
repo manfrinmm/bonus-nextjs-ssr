@@ -23,12 +23,27 @@ export const Content = styled.div`
   display: flex;
 
   div {
+    text-align: center;
+    max-width: 800px;
+
     margin-left: 16px;
 
     p {
       font-size: 24px;
       color: #eeeeee;
-      margin-bottom: 24px;
+
+      white-space: pre-line;
     }
+
+    p.bio {
+      margin: 24px 0;
+    }
+  }
+
+  div.infos {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 8px;
   }
 `;

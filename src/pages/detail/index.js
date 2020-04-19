@@ -14,9 +14,22 @@ const Detail = ({ user }) => (
     <h1>{user.name}</h1>
     <Content>
       <img src={user.avatar_url} alt={user.name} />
-
       <div>
-        <p>{user.bio}</p>
+        <div className="infos">
+          <p>
+            Followers <strong>{user.followers}</strong>
+          </p>
+          <p>
+            Following <strong>{user.following}</strong>
+          </p>
+          <p>
+            Public repositories <strong>{user.public_repos}</strong>
+          </p>
+        </div>
+
+        <hr />
+
+        <p className="bio">{user.bio}</p>
         <a href={user.html_url} target="_blank" rel="noopener noreferrer">
           Go to Github
         </a>
