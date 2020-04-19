@@ -13,9 +13,11 @@
     "next": "^9.3.5",
     "next-routes": "^1.4.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
-    "babel-plugin-root-import": "^6.5.0"
+    "babel-plugin-root-import": "^6.5.0",
+    "babel-plugin-styled-components": "^1.10.7"
   }
 }

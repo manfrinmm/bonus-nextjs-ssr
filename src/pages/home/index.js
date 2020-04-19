@@ -2,16 +2,18 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 
+import { Container } from "./styles";
+
 const Home = () => (
-  <div>
+  <Container>
     <Head>
       <title>Bem vindo!</title>
     </Head>
     <h1>Bem vindo!</h1>
     <Link href="users">
-      <a> Acessar listagem dos membros da Rocketseat</a>
+      <a>Acessar listagem dos membros da Rocketseat</a>
     </Link>
-  </div>
+  </Container>
 );
 
 export default Home;
