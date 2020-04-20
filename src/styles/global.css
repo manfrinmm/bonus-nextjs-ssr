@@ -6,11 +6,12 @@
 }
 
 html,
-body {
+body,
+#__next {
   height: 100%;
 }
 #__next {
-  height: 100vh;
+  overflow-y: auto;
 }
 
 body {
