@@ -80,3 +80,5 @@ export const Repo = styled.div`
     margin-top: 16px;
   }
 `;
+
+export default Container;

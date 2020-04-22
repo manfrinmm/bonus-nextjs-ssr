@@ -12,3 +12,5 @@ export const Container = styled.div`
     margin-bottom: 24px;
   }
 `;
+
+export default Container;

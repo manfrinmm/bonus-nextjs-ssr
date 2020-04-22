@@ -41,3 +41,5 @@ export const Content = styled.div`
     }
   }
 `;
+
+export default Container;
